@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #183b28;
+    background:rgb(2, 154, 154);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #ffffff;
     line-height: 1.6;
@@ -58,7 +58,7 @@ header nav ul li {
 header nav ul a {
     display: inline-block;
     text-decoration: none;
-    color: rgb(104, 62, 218);
+    color: rgb(41, 4, 142);
     font-weight: 600;
     padding: 0.3rem 0.6rem;
     border-radius: 4px;
@@ -111,7 +111,17 @@ main section ul li {
     margin-bottom: 10px;
     font-size: 1rem;
 }
-
+main section form button#sbmBtn{
+    background:#01a852;
+    border: 1px solid gray;
+}
+main section form button#sbmBtn:active{
+    background:#035c2e;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+}
 /* Imagem da home */
 #image {
     height: 400px;
