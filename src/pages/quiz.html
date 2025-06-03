@@ -19,10 +19,26 @@
             </ul>
         </nav>
     </header>
-
+    <main>
+        <div class="quiz">
+            <section id="container-perguntas">
+                <h2 id="pergunta"></h2>
+                <div id="container-respostas">
+                    <input type="text" id="resposta" placeholder="Digite sua Resposta">
+                </div>
+                <button id="proximo">Próxima Pergunta</button>
+                <p id="message"></p>
+            </section>
+            <section id="container-resultado" class="hidden">
+                <h2>Resultado do Quiz</h2>
+                <ul id="lista-resultado"></ul>
+                <button id="inicio-btn">Reiniciar</button>
+            </section>
+        </div>
+    </main>
     <footer>
         &copy;-2025-Todos os direitos reservados.
     </footer>
-    <script src="../JS/script.js"></script>
+    <script src="../JS/quiz.js"></script>
 </body>
 </html>
