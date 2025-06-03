@@ -152,6 +152,35 @@ main section#localiza{
     margin-bottom: 20px;
     font-weight: 600;
 } 
+button.opcao-btn {
+    display: flex;
+    margin-bottom: 10px;
+    background: white;
+    color: black;
+    border: 1px solid gray;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  button.opcao-btn:active{
+    background-color: #023f49;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+  }
+  button#inicio-btn:active{
+    background-color: #023f49;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid gray;
+    border-right: 2px solid gray;
+  }
+  #message {
+    color: rgb(255, 255, 255);
+    margin-top: 0.75rem;
+    text-align: center;
+    font-weight: 600;
+  }
 /* Footer */
 footer {
     font-weight: bold;

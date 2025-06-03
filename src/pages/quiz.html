@@ -2,7 +2,7 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto-GS-Quiz</title>
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
@@ -23,16 +23,13 @@
         <div class="quiz">
             <section id="container-perguntas">
                 <h2 id="pergunta"></h2>
-                <div id="container-respostas">
-                    <input type="text" id="resposta" placeholder="Digite sua Resposta">
-                </div>
-                <button id="proximo">Próxima Pergunta</button>
+                <div id="opcoes-container"></div>
                 <p id="message"></p>
             </section>
             <section id="container-resultado" class="hidden">
                 <h2>Resultado do Quiz</h2>
                 <ul id="lista-resultado"></ul>
-                <button id="inicio-btn">Reiniciar</button>
+                <button id="inicio-btn">Reiniciar Questionário</button>
             </section>
         </div>
     </main>
