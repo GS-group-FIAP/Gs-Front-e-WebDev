@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head   <meta charset="UTF-8">
+<head>   
+<meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Mapa Informativo</title>
 <link rel="stylesheet" href="../CSS/style.css">
+ <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+          crossorigin=""/>
 </head>
 <body>
     <header>
@@ -26,14 +29,22 @@
     <p><strong>Mapa interativo será incorporado com Google Maps ou Mapbox.</strong></p>
     <p>Serão destacados:</p>
     <ul>
-        <li>Áreas de risco (vermelho)</li>
         <li>Pontos de abrigo (verde)</li>
     </ul>
     </section>
+        <div id="localiza">
+            <h2>Mapa de Localização!</h2>
+            <section id="mapa-container">
+                <div id="mapid"></div>
+                <div id="localizacao">Clique para ver sua localização.</div>
+            </section>
+        </div>
 </main>
 
 <footer>
     <p>Baseado em dados locais e históricos de enchentes</p>
 </footer>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" crossorigin=""></script>
+<script src="../JS/mapa.js"></script>
 </body>
 </html>

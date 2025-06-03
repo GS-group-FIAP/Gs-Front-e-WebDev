@@ -132,7 +132,26 @@ main section form button#sbmBtn:active{
     margin-top: 20px;
     object-fit: cover;
 }
-
+/* Localiza */
+main section#localiza{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#mapid{
+    width: 700px;
+    height: 600px;
+}
+#localizacao{
+    margin-bottom: 20px;
+    font-weight: 600;
+} 
 /* Footer */
 footer {
     font-weight: bold;
