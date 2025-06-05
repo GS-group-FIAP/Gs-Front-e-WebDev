@@ -4,13 +4,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(map);
 
-var marker1 = L.marker([-23.5505, -46.6333]).addTo(map)
+var marker1 = L.marker([-23.571529, -46.588745]).addTo(map)
     .bindPopup('Ponto de abrigo.');
 
-var marker2 = L.marker([-23.5615, -46.6565]).addTo(map)
+var marker2 = L.marker([-23.590040, -46.637688]).addTo(map)
     .bindPopup('Ponto de abrigo.');
 
-var marker3 = L.marker([-23.5430, -46.6200]).addTo(map)
+var marker3 = L.marker([-23.706735, -46.617050]).addTo(map)
     .bindPopup('Ponto de abrigo.');
 
 
